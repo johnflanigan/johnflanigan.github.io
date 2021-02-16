@@ -27,6 +27,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  elements-of-ml-programming-solutions:
+    output: true
+    permalink: /ml/elements-of-ml-programming-solutions/:categories/
+
 # Minima settings
 header_pages:
   - ml.md
